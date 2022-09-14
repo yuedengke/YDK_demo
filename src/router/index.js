@@ -12,6 +12,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
+    redirect: '/dashbord',
     component: () => import(/* webpackChunkName: "home" */ '../views/home/index.vue'),
     children: [
       {
