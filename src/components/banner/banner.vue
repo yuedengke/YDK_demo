@@ -37,7 +37,7 @@ export default {
     };
   },
   mounted() {
-    //初始化11
+    //初始化
     this.autoPlay();
   },
   methods: {
